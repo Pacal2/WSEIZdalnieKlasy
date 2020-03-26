@@ -9,20 +9,20 @@ public class Main {
     public static void main(String[] args) {
 
         // Zwracanie danych przez metody
-        ZdalneZadania zadania = new ZdalneZadania();
+        Returns returns = new Returns();
         // Zadanie I
-        System.out.println(zadania.nameSurnamePrefix("Jan", "Kowalski", "Szanowny"));
+        System.out.println(returns.nameSurnamePrefix("Jan", "Kowalski", "Szanowny"));
         // Zadanie II
-        System.out.println(zadania.lowerOrUpperCase(1, "Ten tekst ma być napisany wielkimi literami."));
+        System.out.println(returns.lowerOrUpperCase(1, "Ten tekst ma być napisany wielkimi literami."));
         // Zadanie III
-        System.out.println(zadania.examChecker(50, 10, 10, 10));
+        System.out.println(returns.examChecker(50, 10, 10, 10));
         // Zadanie IV
-        System.out.println(zadania.charAmountChecker("Alabama", 'A'));
+        System.out.println(returns.charAmountChecker("Alabama", 'A'));
         // Zadanie V
         int[] numbersToAdd = {3, 4, 5};
-        System.out.println(zadania.tableAdder(numbersToAdd));
+        System.out.println(returns.tableAdder(numbersToAdd));
         // Zadanie VI
-        System.out.println(zadania.smallestOrLargestNumberInArray(1, numbersToAdd));
+        System.out.println(returns.smallestOrLargestNumberInArray(1, numbersToAdd));
 
         // Tablice i listy jako pola klasy
         double[] grades = {};

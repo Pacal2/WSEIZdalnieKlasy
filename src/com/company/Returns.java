@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Arrays;
 
-public class ZdalneZadania {
+public class Returns {
 
     public String nameSurnamePrefix(String name, String surname, String prefix) {
 
